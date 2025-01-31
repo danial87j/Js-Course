@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>بلاگ ساده</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="blog-container">
+      <header id="title"></header>
+      <article id="body"></article>
+      <section class="comments">
+        <h2>نظرات</h2>
+        <div id="commetnDiv"></div>
+        <form class="comment-form">
+          <textarea placeholder="نام خود را بنوسید:" rows="1" id="name"></textarea>
+          <textarea placeholder="نظر خود را بنویسید..." rows="4" id="comment"></textarea>
+          <button type="submit" id="submit">ارسال نظر</button>
+        </form>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
